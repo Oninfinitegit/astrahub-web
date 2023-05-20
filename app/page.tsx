@@ -53,6 +53,114 @@ export default function Home() {
         </div>
       </div>
       {/* HERO: END */}
+
+      {/* HITS: BEGIN */}
+      <div className="relative min-h-[70vh]">
+        <img
+          src="/brain-wave-white.png"
+          className="absolute left-0 bottom-0 w-[700px] "
+        />
+        <div className="z-10 relative">
+          <div className="container mx-auto my-24">
+            <h3 className="text-2xl md:text-4xl font-bold">
+              Discover our latest hit
+            </h3>
+            <div className="mt-4">
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, dicta!
+              </p>
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem qui sit consectetur!
+              </p>
+            </div>
+
+            <div className="flex items-center md:flex-row flow-col gap-6 mt-16">
+              {Array.from({ length: 4 }).map((_, i) => {
+                return (
+                  <>
+                    <div
+                      key={i}
+                      className="w-[400px] h-[450px] bg-black flex flex-col items-stretch"
+                    >
+                      <div className="flex-1 flex items-center justify-center">
+                        <div className="w-[80%] h-[80%] bg-gray-500"></div>
+                      </div>
+                      <div className="text-white w-[80%] mx-auto">
+                        <p className="text-sm">Lorem, ipsum.</p>
+                      </div>
+                      <div className="my-4 text-white text-center">
+                        <p className="font-bold">Lorem, ipsum dolor.</p>
+                      </div>
+                      <div className="my-4 flex items-center justify-center">
+                        <button className="btn bg-blue-500 btn-sm">
+                          coming soon
+                        </button>
+                      </div>
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* HIST: END */}
+
+      {/* BLACK HISTS: BEGIN */}
+      <div className=" min-h-[70vh] bg-black">
+        <div className="py-24">
+          <div className="container mx-auto text-white">
+            <h3 className="text-2xl md:text-4xl font-bold">
+              Discover our latest hit
+            </h3>
+            <div className="mt-4">
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, dicta!
+              </p>
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem qui sit consectetur!
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row items-center justify-between mt-24">
+            <div className="flex-1 border border-gray-700 aspect-square flex flex-col items-center justify-center gap-4">
+              <img src="/wave-orange.png" />
+              <div className="text-white w-[50%]">
+                <p className="text-2xl text-white">Discover our hits</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores quis neque ut?
+                </p>
+              </div>
+            </div>
+            <div className="flex-1 border border-gray-700 aspect-square flex flex-col items-center justify-center">
+              <img src="/wave-green.png" />
+              <div className="text-white w-[50%]">
+                <p className="text-2xl text-white">Discover our hits</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores quis neque ut?
+                </p>
+              </div>
+            </div>
+            <div className="flex-1 border border-gray-700 aspect-square flex flex-col items-center justify-center">
+              <img src="/wave-blue.png" />
+              <div className="text-white w-[50%]">
+                <p className="text-2xl text-white">Discover our hits</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores quis neque ut?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* BLACK HISTS: END */}
     </div>
   );
 }
