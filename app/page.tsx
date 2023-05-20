@@ -161,6 +161,116 @@ export default function Home() {
         </div>
       </div>
       {/* BLACK HISTS: END */}
+
+      {/* OUR TEAM: BEGIN */}
+      <div className=" bg-black">
+        <div className="py-24">
+          <div className="container mx-auto text-white">
+            <h3 className="text-2xl md:text-4xl font-bold">Our Team</h3>
+            <div className="mt-4">
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, dicta!
+              </p>
+              <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem qui sit consectetur!
+              </p>
+            </div>
+            <p className="text-white font-black mt-12">
+              TBD...{" "}
+              <span className="font-extralight">BTW it would be riya</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* OUR TEAM: END */}
+
+      {/* ABOUT ASTRA: BEGIN */}
+      <div className="bg-black text-white">
+        <div className="flex lg:flex-row flex-col justify-between items-center">
+          <div className="flex-1 border border-gray-700 lg:h-[50vh] h-[70vh] flex items-center justify-center">
+            <div className="lg:w-[50%] w-full py-12 px-3">
+              <h3 className="text-3xl">About Astra</h3>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laudantium laboriosam nemo repellendus saepe culpa ex ad ipsa
+                inventore harum eius maiores officiis natus iure temporibus,
+                earum architecto quis ducimus nihil vel similique dolores
+                repudiandae! Illum, libero! Consequuntur alias ipsa, incidunt
+                dicta veniam ut sint architecto iste aperiam officia, eveniet
+                enim.
+              </p>
+              <div>
+                <img src="/logo.png" />
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 border border-gray-700 lg:h-[50vh] h-[70vh] flex items-center justify-center ">
+            <div className="lg:w-[50%] w-full py-12 px-3">
+              <h3 className="text-3xl">Join Our Wait List</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                dignissimos rerum necessitatibus?
+              </p>
+              <div className="my-4 flex md:flex-row flex-col gap-4 justify-between items-center">
+                <div className="form-control w-full ">
+                  <label className="label">
+                    <span className="label-text text-white">Your email</span>
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="input input-bordered w-full "
+                  />
+                </div>
+                <div className="form-control w-full ">
+                  <label className="label">
+                    <span className="label-text text-white">
+                      How did you find us?
+                    </span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="How?"
+                    className="input input-bordered w-full "
+                  />
+                </div>
+              </div>
+              <div className="flex items-center">
+                <button className="btn bnt-sm bg-blue-500">
+                  Join wait list
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* ABOUT ASTRA: ENAD */}
+
+      {/* FOOTER: BEGIN */}
+      <footer className=" bg-black md:h-24 h-28 text-white">
+        <div className=" container mx-auto flex flex-col md:flex-row items-center justify-around md:justify-between h-full">
+          <div className="flex items-center gap-4 text-sm">
+            <div>
+              <p>Terms of use</p>
+            </div>
+            <div>
+              <p>Privacy and Policy</p>
+            </div>
+            <div>
+              <p>Cookies</p>
+            </div>
+          </div>
+          <div className="flex flex-row-reverse gap-4">
+            <div>2023</div>
+            <img src="/logo.png" />
+          </div>
+        </div>
+      </footer>
+      {/* FOOTER: END */}
     </div>
   );
 }
