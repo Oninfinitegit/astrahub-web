@@ -61,7 +61,7 @@ export default function Home() {
           className="absolute left-0 bottom-0 w-[700px] "
         />
         <div className="z-10 relative">
-          <div className="container mx-auto my-24">
+          <div className="container mx-auto my-24 px-3">
             <h3 className="text-2xl md:text-4xl font-bold">
               Discover our latest hit
             </h3>
@@ -110,7 +110,7 @@ export default function Home() {
 
       {/* BLACK HISTS: BEGIN */}
       <div className=" min-h-[70vh] bg-black">
-        <div className="py-24">
+        <div className="py-24 px-3">
           <div className="container mx-auto text-white">
             <h3 className="text-2xl md:text-4xl font-bold">
               Discover our latest hit
