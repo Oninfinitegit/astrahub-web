@@ -7,10 +7,9 @@ export default function Home() {
       <header className="absolute top-0 left-0 right-0 h-20 z-10 flex">
         <div className="container mx-auto text-white flex-1 flex justify-between items-center">
           <div className="flex-1 flex items-center gap-4">
-            <p>
-              <span className="font-bold">ASTRA</span>
-              <span className="font-thin">HUB</span>
-            </p>
+            <div>
+              <img src="/logo.png" className="md:w-full w-24 " />
+            </div>
             <p className="hover:underline hover:cursor-pointer">Home</p>
             <p className="hover:underline hover:cursor-pointer">About us</p>
             <p className="hover:underline hover:cursor-pointer">Contact us</p>
@@ -23,7 +22,7 @@ export default function Home() {
       {/* HEADER: END */}
       {/* HERO: BEGIN */}
       <div
-        className="min-h-[75vh] bg-black flex "
+        className="min-h-screen md:min-h-[75vh] bg-black flex "
         style={{
           backgroundImage: "url('/windowsbgdarken.jpg')",
           backgroundPosition: "center",
@@ -31,10 +30,10 @@ export default function Home() {
           filter: "brightness(100%)",
         }}
       >
-        <div className="container mx-auto flex-1 flex justify-between items-center text-white flex-col md:flex-row">
+        <div className="container mx-auto px-5 flex-1 flex justify-between items-center text-white flex-col-reverse md:flex-row">
           <div className="flex-1 flex flex-col items-stretch justify-center">
             <span className="font-thin mb-3">Welcome to Astrahub</span>
-            <h1 className="text-4xl">
+            <h1 className="md:text-4xl text-2xl">
               Revolutionize your music with AI: Experience the future of music
               generation with <span className="font-bold">ASTRAHUB</span>
             </h1>
@@ -48,7 +47,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="md:flex-1 md:flex hidden"></div>
+          <div className="md:flex-1 md:flex md:items-center md:justify-center mt-10 ">
+            <img src="/brain-wave-blue.png" />
+          </div>
         </div>
       </div>
       {/* HERO: END */}
