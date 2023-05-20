@@ -76,7 +76,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex items-center md:flex-row flow-col gap-6 mt-16">
+            <div className="flex items-center  flex-col gap-6 mt-16 lg:flex-row">
               {Array.from({ length: 4 }).map((_, i) => {
                 return (
                   <>
