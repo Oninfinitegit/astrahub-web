@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       {/* HEADER: BEGIN */}
-      <header className="absolute top-0 left-0 right-0 h-20 z-10 flex">
+      <header className="px-3 absolute top-0 left-0 right-0 h-20 z-10 flex">
         <div className="container mx-auto text-white flex-1 flex justify-between items-center">
           <div className="flex-1 flex items-center gap-4">
             <div>
@@ -164,7 +164,7 @@ export default function Home() {
 
       {/* OUR TEAM: BEGIN */}
       <div className=" bg-black">
-        <div className="py-24">
+        <div className="py-24 px-3">
           <div className="container mx-auto text-white">
             <h3 className="text-2xl md:text-4xl font-bold">Our Team</h3>
             <div className="mt-4">
